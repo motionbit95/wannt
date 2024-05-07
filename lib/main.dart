@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:wannt/screen/home_screen.dart';
 import 'package:wannt/widget/bottom_bar.dart';
 
 void main() {
@@ -26,7 +27,7 @@ class _MyAppState extends State<MyApp> {
             physics: NeverScrollableScrollPhysics(),
             children: <Widget>[
               Container(
-                child: Center(child: Text('홈')),
+                child: HomeScreen(),
               ),
               Container(
                 child: Center(child: Text('피드')),
